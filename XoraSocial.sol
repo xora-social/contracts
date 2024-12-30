@@ -51,7 +51,7 @@ contract XoraSocial is OwnableUpgradeable, ReentrancyGuardUpgradeable {
         uint256 totalCirculation,
         uint256 postQuote,
         uint256 senderBalance
-    );
+    );  
     event ReferralAssignment(address indexed account, address indexed assignedReferrer);
 
     receive() external payable {}
